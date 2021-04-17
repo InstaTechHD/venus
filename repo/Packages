@@ -1,0 +1,143 @@
+Package: com.exile90.icleanerpro
+Name: iCleaner Pro
+Description: The first real iOS system cleaner & optimizer
+Filename: debs/com.exile90.icleanerpro_7.9.1_iphoneos-arm.deb
+Size: 4786998
+MD5sum: ccd722461350e28e2e0b5a029416ca6c
+Author: Ivano Bilenchi <support@ib-soft.net>
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Version: 7.9.1
+Architecture: iphoneos-arm
+Homepage: http://ib-soft.net/icleaner
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Section: Utilities
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: file:///Applications/iCleaner.app/Icon.png
+
+Package: com.ichitaso.exsto13
+Author: ichitaso
+Maintainer: ichitaso
+Filename: debs/com.ichitaso.exsto13_0.0.9_iphoneos-arm.deb
+Size: 81210
+MD5sum: 796fc3de25409b9661339a17455ebeb4
+Name: Exsto (iOS 13 to 14)
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.zachatrocity.exsto, com.julioverne.exsto11
+Replaces: com.ichitaso.exsto13
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Unleash your folders
+Depiction: https://cydia.ichitaso.com/depiction/exsto13.html
+homepage: https://ichitaso.com
+dev: ichitaso
+Tag: purpose::extension, compatible::ios13, compatible::ios14
+Icon: file:///Library/PreferenceBundles/Exsto13.bundle/icon@2x.png
+Version: 0.0.9
+Installed-Size: 424
+
+Package: com.julioverne.mimport
+Name: MImport
+Author: julioverne <julioverne@me.com>
+Filename: debs/com.julioverne.mimport_0.0~beta40_iphoneos-arm.deb
+Size: 1495744
+MD5sum: 52ce4a2de030e0bf90e8cd42362418f3
+Version: 0.0~beta40
+Depends: mobilesubstrate, unzip, unrar
+Architecture: iphoneos-arm
+Description: Media Importer Directly From Music App
+Homepage: http://twitter.com/ijulioverne
+Maintainer: Julio
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/MImport.bundle/icon@2x.png
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.mimport
+
+Package: com.rileytestut.altdaemon
+Name: AltDaemon
+Depends:
+Filename: debs/com.rileytestut.altdaemon_1.0_iphoneos-arm.deb
+Size: 597622
+MD5sum: 83660c2d5119ac6ecce72236b27cfae4
+Version: 1.0
+Architecture: iphoneos-arm
+Description: AltDaemon allows AltStore to install and refresh apps without a computer.
+Maintainer: Riley Testut
+Author: Riley Testut
+Homepage: https://altstore.io
+Section: System
+
+Package: com.tigisoftware.filza64bit
+Name: Filza File Manager 64-bit
+Depends: zip, unzip, gzip, unrar, p7zip
+Filename: debs/com.tigisoftware.filza64bit_3.8.2-4_iphoneos-arm.deb
+Size: 8387434
+MD5sum: eb947177c58647ec420a31af4610a64c
+Conflicts: com.tigisoftware.filza
+Architecture: iphoneos-arm
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Maintainer: TIGI Software
+Author: TIGI Software
+Section: Utilities
+Version: 3.8.2-4
+Installed-Size: 21772
+
+Package: net.angelxwind.appsyncunified
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.4.2)
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Filename: debs/nodelete-net.angelxwind.appsyncunified.deb
+Size: 58314
+MD5sum: f939aee24badb2c8d145aed68120a32c
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Homepage: https://cydia.akemi.ai/
+Provides: appsync
+Replaces: us.hackulo.appsync50
+Name: AppSync Unified
+Architecture: iphoneos-arm
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Section: Tweaks
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Version: 92.0
+Installed-Size: 732
+
+Package: netskao.altstore
+Version: 1.4.4b
+Section: Netskao-Tweaks
+Filename: debs/altstore_1.4.4b_iphoneos-arm.deb
+Size: 4421580
+MD5sum: 72aea2ea2368416b8b2a60b7ab08b848
+Maintainer: Nets
+Depends: firmware (>= 12.2), com.rileytestut.altdaemon
+Architecture: iphoneos-arm
+Name: AltStore+
+Author: Riley Testut
+Description: 如何无需连接一次电脑即可正常使用AltStore
+ 特别注意:更新源内AltStore主程序后需重新进入/Applications/AltStore.app目录下info.plist修改ALTDeviceID为自己的UDID
+ 1.安装本AltStore主程序，源https://repo.initnil.com/
+ 2.安装AltDaemon守护进程，源https://repo.dynastic.co/
+ 3.Filza打开/Applications/AltStore.app目录下的info.plist
+ 4.在info.plist中的ALTDeviceID字段填写自己设备的UDID然后保存
+ 5.进入AltStore主程序登陆自己的AppleID，登陆后会提示刷新，然后刷新出来一个新的AltStore，不用管这个
+ 6.倒入需要签名的IPA，签名过程中会弹出再次刷新，取消即可
+ 7.签名完成后前往设置查看，是否有证书了，只要你没操作错误肯定有的
+Homepage: https://repo.dynastic.co/
+
+Package: org.mr.relocatereborn
+Name: Relocate Reborn
+Author: Nepeta
+Filename: debs/org.mr.relocatereborn_1.0.1_iphoneos-arm.deb
+Size: 117350
+MD5sum: d732a9eb75f5238ea9ec98127eebe6e2
+Description: Minimalist GPS spoofer (free, iOS 13+)
+Maintainer: MainRepo
+Version: 1.0.1
+Section: Tweaks
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 13.0), applist, com.rpetrich.rocketbootstrap (>= 0.1.7), preferenceloader
+Conflicts: me.nepeta.relocate
+Depiction: https://mainrepo.org/package/2987
+SileoDepiction: https://mainrepo.org/sileo/2987
+Architecture: iphoneos-arm
+Installed-Size: 492
+Icon: https://api.ios-repo-updates.com/image.php?url=https://repo.nepeta.me/icons/me.nepeta.relocatereborn.png
+

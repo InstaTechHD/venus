@@ -1,0 +1,13 @@
+Origin: InstaHub Repo
+Label: InstaHub
+Suite: stable
+Version: 1.0
+Codename: InstaHub App
+Architectures: iphoneos-arm
+Components: main
+Description: Freemium at your fingertips
+MD5Sum:
+ 57f7a00e42c97253ae372a8584003095 5874 Packages
+ 89439d6297765490679e2768334c42f8 2654 Packages.bz2
+ 7d5989e2091eee9d5bc998c13675806f 2521 Packages.gz
+
